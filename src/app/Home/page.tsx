@@ -29,7 +29,7 @@ export default function Home() {
             <Link href="/login">
               <Button variant="ghost">Login</Button>
             </Link>
-            <Link href="/signup">
+            <Link href="/register">
               <Button>Sign Up</Button>
             </Link>
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
                 Create and share your documents. Work together with your team in real-time, from anywhere.
               </p>
               <div className="flex flex-col gap-4 sm:flex-row">
-                <Link href="/signup">
+                <Link href="/register">
                   <Button size="lg" className="w-full sm:w-auto">
                     Get Started Free
                   </Button>
