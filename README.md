@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real-Time Collaborative Document Editor
 
-## Getting Started
+This is a full-stack collaborative document editing platform, similar to **Google Docs**, built using **Next.js** and **Node.js**, with **MongoDB** as the database. It enables users to create, edit, and share documents with friends, allowing multiple users to work on the same document simultaneously. Real-time synchronization of changes is powered by **WebSockets**.
 
-First, run the development server:
+## Why This Platform?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+In today's remote work and study environments, seamless collaboration on documents is essential. Traditional document-sharing methods often result in version conflicts and inefficiencies. This platform solves these problems by providing **real-time collaborative editing**, allowing multiple users to work on a document simultaneously, with all changes reflected instantly for everyone involved. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It is ideal for team projects, brainstorming sessions, and academic collaborations where real-time input is crucial.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### User Panel
 
-## Learn More
+- User authentication and account management.
+- Create and edit documents.
+- Share documents with friends via a unique link.
+- Real-time synchronization using **WebSockets**.
+- Email verification using **Resend**.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** Next.js, TypeScript, ShadCN UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** NextAuth.js
+- **Email Verification:** Resend
+- **Real-time Data Sharing:** WebSockets
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ensure you have the following installed:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Node.js** (v16+ recommended)
+- **MongoDB** (Local or Atlas)
+
+### Steps to Run Locally
+
+1. Clone the repository:
+
+2. Install dependencies:
+
+3. Set up environment variables by creating a `.env` file:
+
+4. Start the development server:
+
+   The app will be available at [http://localhost:3000](http://localhost:3000)
+
+## Development Roadmap
+
+- Improve document history and version control.
+- Enhance the user interface and editor features.
+- Implement role-based permissions for document access.
+
+## Contributing
+
+Feel free to contribute by opening an issue or submitting a pull request.
